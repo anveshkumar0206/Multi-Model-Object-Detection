@@ -1,4 +1,4 @@
-# Multi-Model-Object-Detection using YOLOv5, YOLOv8, AND Detectron2
+# Multi-Model-Object-Detection using YOLOv5, YOLOv8, and Detectron2
 
 The objective is to detect vehicles in a street scene, generate bounding boxes, and compare the performance of these models in terms of accuracy, inference speed, and detection quality.
 
@@ -18,6 +18,7 @@ Each model processes the frames, detects objects, and draws bounding boxes.
 The processed frames are recompiled into a final output video.
 
 Object Detection Workflow
+
 1.Video Preprocessing:
 Convert the input video into image frames.
 Resize and normalize the images for model inference.
@@ -41,8 +42,9 @@ The results from the three models are compared in terms of accuracy and visualiz
 
 Results:
 The before and after inference videos are compared:
-Before: Raw input video.
+Before: Raw input video,
 After: Processed videos with bounding boxes around detected vehicles.
+
 Performance metrics such as:
 Inference speed,
 Detection accuracy,
